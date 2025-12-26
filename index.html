@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand Gesture Camera Control</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Camera Assembly Animation</h1>
+    <div id="container">
+        <div id="loading">Loading assets and model...</div>
+        <img id="camera-image" src="./frames/frame-0001.png" alt="Camera">
+        <div id="controls">
+            <p>Use the slider or your hand gesture to control the animation.</p>
+            <input type="range" id="frame-slider" min="1" max="240" value="1">
+            <p>Frame: <span id="frame-number">1</span></p>
+        </div>
+    </div>
+    
+    <!-- Webcam and Canvas for hand tracking -->
+    <video id="webcam" style="display: none;"></video>
+    <canvas id="output-canvas" width="640" height="480" style="display: none;"></canvas>
+
+    <!-- TensorFlow.js and MediaPipe Hands -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-core"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-converter"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-webgl"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/hand-pose-detection"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands"></script>
+
+    <!-- Main application script -->
+    <script src="script.js"></script>
+</body>
+</html>
