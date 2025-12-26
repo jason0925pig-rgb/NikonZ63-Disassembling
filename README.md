@@ -50,7 +50,7 @@ FFmpeg (If you need to process a new video file)
 ### 2. Clone the Repository
 ```Bash
 
-git clone [https://github.com/YourUsername/nikon-z63-disassembly.git](https://github.com/YourUsername/nikon-z63-disassembly.git)
+git clone [https://github.com/jason0925pig-rgb/NikonZ63-Disassembling](https://github.com/jason0925pig-rgb/NikonZ63-Disassembling)
 cd nikon-z63-disassembly
 ```
 
