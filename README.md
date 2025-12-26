@@ -1,6 +1,8 @@
 # NikonZ63 Disassembling
 A program that you can disassemble your camera by your gesture
 
+https://github.com/user-attachments/assets/e12db609-b2d2-4361-9821-f627b96274a2
+
 # 📸 Nikon Z6 III Interactive Disassembly Viewer
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Status](https://img.shields.io/badge/status-active-success.svg)
